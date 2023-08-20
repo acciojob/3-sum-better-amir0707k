@@ -3,9 +3,9 @@ function threeSum(arr, target) {
 	let S = arr.slice();
 	let newArray = [];
 	for(let i = 0;i<S.length;i++){
-            const min1 = S[i];
-  const min2 = S[(i + 1) % S.length];
-  const min3 = S[(i + 2) % S.length];
+            const min1 = S[0];
+            const min2 = S[1];
+            const min3 = S[2];
 		
 		const sum = min1 + min2 + min3;
 		newArray[i] = sum;
