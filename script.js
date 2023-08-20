@@ -15,7 +15,7 @@ function threeSum(arr, target) {
 		
 	}
 	
-	findClosestValue(newArray,target);
+	let closestValue = findClosestValue(newArray,target);
 	function findClosestValue(arr,target){
 	let closestValue = arr[0];
 	let minDifference = Math.abs(arr[0] - target);
@@ -28,6 +28,8 @@ function threeSum(arr, target) {
 	}
 	return closestValue;
 	}
+	
+	return closestValue;
 }
 
 module.exports = threeSum;
