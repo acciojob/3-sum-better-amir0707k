@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
 // write your code here
-	let S = mainArr.slice();
+	let S = arr.slice();
 	let newArray = [];
 	for(let i = 0;i<S.length;i++){
 		const min1 = S[0];
